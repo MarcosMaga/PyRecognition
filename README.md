@@ -10,5 +10,6 @@ Retorna o que foi reconhecido pelo sistema.
 
 ### Necessario
 
-**-Selenium**
-**-Google Chrome 87+**
+**-Selenium.**
+**-Google Chrome 87+.**
+**-Windows**
