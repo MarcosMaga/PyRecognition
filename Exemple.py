@@ -1,5 +1,8 @@
-import PyRecognition
+from PyRecognition import PyRecognition
+
+recognizer = PyRecognition('en-US')
 
 while True:
-    speech = PyRecognition.recognition('pt-BR')
+    speech = recognizer.recognition()
     print(speech)
+
