@@ -1,22 +1,23 @@
-# PyRecognition 0.1v
+# PyRecognition 0.2v
 
-**PySpeech** é um modulo que busca trazer um reconhecimento de
-voz de qualidade para o python.
+**PyRecognition** is a module that seeks to bring a recognition of
+quality voice and speed of response for python.
 
-## Funções
+## Functions
 
-* `PyRecognition.recognition(language)` - Recebe valor string com a linguagem que será utilizada. (Até o momento: 'pt-BR', 'en-US').
-Retorna o que foi reconhecido pelo sistema.
+* `PyRecognition.recognition()` - Returns what was recognized by the system.
 
-### Necessario
+### Requisits
 
-* Selenium.
+* Selenium. `pip install selenium`
 * Google Chrome 87+.
-* Windows
+* Windows.
 
 #### Como usar?
 
-* Baixe o repositorio e extraia dentro da pasta do seu projeto.
-* importe o modulo usando `import PyRecognition`.
-* Instancie o **PyRecognition** com `PyRecognition.recognition(language)`
-* Veja o exemplo
+* Download the repository and extract it into your project folder.
+* Download the ChromeDrive for your version of Google Chrome
+* importe o modulo usando `from PyRecognition import PyRecognition`.
+* Instantiate **PyRecognition** with `recognizer = PyRecognition(language)`
+* Get the value using `speech = recognizer.recognition()`
+* See the **Exemple.py**
