@@ -17,7 +17,7 @@ quality voice and speed of response for python.
 
 * Download the repository and extract it into your project folder.
 * Download the ChromeDrive for your version of Google Chrome
-* importe o modulo usando `from PyRecognition import PyRecognition`.
+* import the module using: `from PyRecognition import PyRecognition`.
 * Instantiate **PyRecognition** with `recognizer = PyRecognition(language)`
 * Get the value using `speech = recognizer.recognition()`
 * See the **Exemple.py**
